@@ -1,0 +1,320 @@
+/* CSS Resest  */
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* CSS Variables  */
+:root{
+    --navbar-height:59px;
+}
+
+ /* Navigation Bar  */
+ #navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: sticky;
+    
+}
+#navbar::before{
+   content: "";
+   background-color: black;
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   height: 95%;
+   width: 100%;
+   z-index: -1;
+   opacity: 0.59;
+}
+ /* Navigation Bar:Logo And Image  */
+ #logo 
+ {
+    margin: 10px 35px;
+ }
+ #navbar div img{
+    height: 70px;
+    width: 100px;
+    margin: 3px 5px;
+ }
+ /* Navigation Bar: List Styling  */
+  #navbar ul{
+    display: flex;
+ }
+
+ #navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+ }
+ #navbar ul li a{
+    display: block;
+    padding: 3px 20px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+ }
+ #navbar ul li a:hover{
+    color: black;
+    background-color: white;
+
+ }
+ /* Home Section  */
+ #home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 645px;
+    z-index:-1;
+ }
+ #home::before{
+    content: "";
+    background: url('../bg1.jpg.jpg') no-repeat center center/cover
+    ;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+
+ }
+ #home h1{
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ #home p{
+    font-family: serif;
+    color: white;
+    text-align: center;
+    font-size: 1.8rem
+    
+
+ }
+ .btn:hover{
+    color: wheat;
+    background-color: black;
+    
+ }
+ /* Services Section   */
+ #services{
+    /* margin: 34px; */
+    display: flex;
+    z-index:-1;
+ }
+ #services .box{
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 34px 55px;
+    border-radius: 20px;
+    background-color: rgb(252, 251, 250);
+    padding-bottom: 34px;
+    /* margin-bottom: 10px; */
+ }
+ #services .box img{
+    height: 150px;
+    display: block;
+    margin: auto;
+}
+#services .box p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* Clients Section  */
+#client-section{
+    position: relative;
+    z-index:-1;
+}
+#client-section::before{
+    content: "";
+    background: url('../bg.jpg.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 100%;;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+#clients img{
+    height: 100px;
+    padding: 6px 54px;
+    margin: 6px 24px;
+    opacity: 1.4;
+}
+/* Contact section  */
+#contact{
+    position: relative;
+    z-index:-1;
+}
+#contact::before{
+    content: "";
+    background: url('../contact.jpg.jpg')no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.4;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 3px 20px;
+
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 74px;
+}
+#contact-box form{
+    width: 40%;
+}
+#contact-box label{
+    font-size: 1.3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 10px;
+    font-size: 1.3rem;
+}
+
+ /* Utility Classes  */
+ .h-primary{
+    font-size: 2.8rem;
+    padding: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+ }
+ .btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: black;
+    margin: 20px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+ }
+ .center{
+    text-align: center;
+ }
+ .h-secondary{
+    font-size: 1.8rem;
+    padding: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
